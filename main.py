@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-components.iframe("O:\Simple Website\Website_Using_Python\index.html")
+components.iframe("\index.html")
 # st.title("Hello Techeie !!!")
 # name = st.text_input("Enter your Name : ")
 # fname = st.text_input("Enter Your surname: ")
