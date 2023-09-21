@@ -10,5 +10,5 @@ if button :
     st.markdown(f"""
                 Name : {name}
                 Surname : {fname}
-                adress : {adr}
+                address : {adr}
                 class : {classdata}""")
