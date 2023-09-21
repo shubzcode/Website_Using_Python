@@ -1,5 +1,4 @@
 import streamlit as st 
-import pandas as pd
 
 name = st.text_input("Enter your Name : ")
 fname = st.text_input("Enter Your surname: ")
