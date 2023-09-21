@@ -2,10 +2,10 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-st.components.html("""
-                   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-                   <link rel="stylesheet" href="style.css">
-                   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+html= """
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
@@ -161,7 +161,9 @@ st.components.html("""
             </div>
         </div>
     </div>
-    """, width=None, height=None, scrolling=False)
+    """
+st.components.v1.html(html, height=300)
+    # width=None, height=None, scrolling=False)
 # st.title("Hello Techeie !!!")
 # name = st.text_input("Enter your Name : ")
 # fname = st.text_input("Enter Your surname: ")
